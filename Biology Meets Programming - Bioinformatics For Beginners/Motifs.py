@@ -3,7 +3,6 @@
 # Biology Meets Programming: Bioinformatics for Beginners by University of California San Diego
 
 import random 
-import MotifAlgorithms
 
 ###----------SEARCH FUNCTIONS (Gibbs, Random, Greedy)----------###
 
