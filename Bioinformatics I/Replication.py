@@ -48,9 +48,19 @@ def ReverseComplement(Pattern):
     
     return reverseComplement[::-1] # reverses string 
 
+# INPUT: two strings, the genome (named Text) and Pattern
+# OUPUT: integer list specifying starting positions where Pattern is a substring of Genome
+def PatternMatching(Text, Pattern):
+    positions = []
+    for i in range(len(Text) - len(Pattern) + 1):
+        if Text[i : i + len(Pattern)] == Pattern:
+            positions.append(i)
+    return positions
 
 
-Text = ""
-Pattern = ""
 
-print(ReverseComplement(Pattern))
+Genome = ""
+Pattern = "CTTGATCAT "
+
+data = PatternMatching(Genome, Pattern)
+print(*data, sep='  ') # use this snippet here to omit commas when printing to console
