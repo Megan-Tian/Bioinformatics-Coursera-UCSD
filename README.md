@@ -13,3 +13,7 @@ Weeks 3-4
 
 Searching and scoring motifs (snippets of frequently repeated DNA strings) in DoRS (tuberculosis)
 
+### MotifAlgorithms.py
+Weeks 3-4
+
+Calls all the search functions from Motifs.py and prints results to compare them. 
